@@ -8,10 +8,11 @@ public class Main {
 
     public static void main(String [] args) {
 
-        StaticExample staticExample = new StaticExample();
+        Integer i = 6 * 7;
+        Integer j = 7;
+        j += i;
 
-        System.out.println("integer default value: "+staticExample.integerValue);
-        System.out.println("int default value: "+staticExample.intValue);
+        System.out.println("(6 * 7) + (7 + (6 * 7)) = "+(j+i));
 
     }
 }
