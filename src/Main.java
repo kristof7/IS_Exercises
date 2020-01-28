@@ -39,5 +39,11 @@ public class Main {
 
         car1.printName();
         car2.printName();
+
+        engine1.printPower();
+        engine1.printCapacity();
+        engine2.printPower();
+        engine2.printCapacity();
+
     }
 }
