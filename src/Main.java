@@ -9,12 +9,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int a = 10;
-        while (a > 0) {
-            a--;
+        int a = -10;
+        do {
+            a++;
             System.out.println(a);
-        }
+        } while (a < 0);
 
     }
 }
+
 
