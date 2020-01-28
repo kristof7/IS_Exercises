@@ -1,3 +1,4 @@
+import Classes.Calculator;
 import Classes.Car;
 import Classes.Engine;
 import Classes.StaticExample;
@@ -8,11 +9,10 @@ public class Main {
 
     public static void main(String [] args) {
 
-        Integer i = 6 * 7;
-        Integer j = 7;
-        j += i;
-
-        System.out.println("(6 * 7) + (7 + (6 * 7)) = "+(j+i));
+        Calculator calculator = new Calculator();
+        System.out.println("(integer)divide 20 / 10 = "+calculator.divide(20, 10));
+        System.out.println("(integer)divide 7 / 2 = "+calculator.divide(7, 2));
+        System.out.println("(integer)divide 100 / 23 = "+calculator.divide(100, 23));
 
     }
 }
