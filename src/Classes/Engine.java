@@ -1,8 +1,8 @@
 package Classes;
 
 public class Engine {
-    public int power;
-    public int capacity;
+    private int power;
+    private int capacity;
 
     public Engine() {
     }
@@ -16,5 +16,20 @@ public class Engine {
     public void printCapacity() {
         System.out.println(capacity);
     }
+    //-----------Gettery i settery-----------
+    public int getPower() {
+        return power;
+    }
 
+    public void setPower(int power) {
+        this.power = power;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
 }

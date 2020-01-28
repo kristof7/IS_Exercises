@@ -6,7 +6,7 @@ public class StaticExample {
     }
     public static void staticMethod() {
         System.out.println("This is static method");}
-    public void nonStaticMethod(){
+    public void nonStaticMethod() {
         System.out.println("This is non static method");
     }
 
