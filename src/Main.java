@@ -36,5 +36,8 @@ public class Main {
         System.out.println("Car 2 max Speed: "+car2.maxSpeed);
         System.out.println("Car 2 engine capacity: "+car2.engine.capacity);
         System.out.println("Car 2 engine power: "+car2.engine.power);
+
+        car1.printName();
+        car2.printName();
     }
 }
