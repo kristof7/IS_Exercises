@@ -4,24 +4,21 @@ import Classes.Engine;
 import Classes.StaticExample;
 
 import java.awt.*;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        method(20);
-    }
 
-    public static void method(int number) {
-        for (int i = 0; i <= number; i++) {
-            if (i % 2 == 0) {
-                continue;
-            }
-            if (i % 11 == 0) {
-                break;
-            }
-            System.out.println(i + " / " + number + " is not even");
-            System.out.println("Number 11 stops the loop!");
-        }
+
+        System.out.println("Aplication that sum two variables");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input first number: ");   //add first variable
+        double variable1 = scanner.nextDouble();
+        System.out.println("Input second number: ");  //add second variable
+        double variable2 = scanner.nextDouble();
+        double sum = variable1 + variable2;           //sum the variables
+        System.out.println("The sum of "+variable1+" and "+variable2+" is "+sum);
 
 
     }
