@@ -10,16 +10,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-        System.out.println("Aplication that sum two variables");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input first number: ");   //add first variable
-        double variable1 = scanner.nextDouble();
-        System.out.println("Input second number: ");  //add second variable
-        double variable2 = scanner.nextDouble();
-        double sum = variable1 + variable2;           //sum the variables
-        System.out.println("The sum of "+variable1+" and "+variable2+" is "+sum);
+        String newName = scanner.nextLine();
+        int newEngine = scanner.nextInt();
 
+        Engine engine = new Engine();
+        engine.setPower(newEngine);
+        Car car1 = new Car();
+        car1.setName(newName);
+        car1.setEngine(engine);
+
+        System.out.println("Car name: "+car1.getName());
+        System.out.println(car1.getName()+"'s"+" engine power: "+engine.getPower());
 
     }
 }
