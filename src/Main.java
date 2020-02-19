@@ -13,6 +13,7 @@ import Task28S.Task28S;
 import Task29S.Task29S;
 import Task30S.Task30S;
 import Task31S.Task31S;
+import Task32S.Task32S;
 
 public class Main {
 
@@ -44,9 +45,11 @@ public class Main {
 //        Task29S.task29S();
         //Task30S(List)
 //        Task30S.task30();
-
         //Task31S(List2)
-        Task31S.task31();
+//        Task31S.task31();
+
+        //Task31S(Map)
+        Task32S.task32();
 
     }
 }
