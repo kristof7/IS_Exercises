@@ -6,6 +6,7 @@ import Task21.Task21;
 import Task23.Animal;
 import Task23.Task23;
 import Task24.Task24;
+import Task25.Task25;
 
 public class Main {
 
@@ -23,10 +24,11 @@ public class Main {
 //        Task21.task21();
         //Task23(Inherit method)
 //        Task23.task23();
-
         //Task24(Inherit cont.)
-        Task24.task24();
+//        Task24.task24();
 
+        //Task25(Interface)
+        Task25.task25();
     }
 }
 
