@@ -5,6 +5,7 @@ import Task20.Task20;
 import Task21.Task21;
 import Task23.Animal;
 import Task23.Task23;
+import Task24.Task24;
 
 public class Main {
 
@@ -20,9 +21,11 @@ public class Main {
 //        Task20.task20();
         //Task21(Exceptions with retry function) // Task22(add locale)
 //        Task21.task21();
-
         //Task23(Inherit method)
-        Task23.task23();
+//        Task23.task23();
+
+        //Task24(Inherit cont.)
+        Task24.task24();
 
     }
 }

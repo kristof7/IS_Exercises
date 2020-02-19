@@ -1,8 +1,9 @@
 package Classes;
 
 import Task18.Color;
+import Task24.Vehicle;
 
-public class Car {
+public class Car extends Vehicle {
     private String name;
     private int maxSpeed;
     private Engine engine;
@@ -10,6 +11,10 @@ public class Car {
 
     public Car(Color color) {
         this.color = color;
+    }
+
+    public Car() {
+
     }
 
     //-----------Getters & setters-----------
