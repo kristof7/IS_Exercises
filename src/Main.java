@@ -14,6 +14,7 @@ import Task29S.Task29S;
 import Task30S.Task30S;
 import Task31S.Task31S;
 import Task32S.Task32S;
+import Task33S.Task33S;
 
 public class Main {
 
@@ -47,10 +48,11 @@ public class Main {
 //        Task30S.task30();
         //Task31S(List2)
 //        Task31S.task31();
-
         //Task31S(Map)
-        Task32S.task32();
+//        Task32S.task32();
 
+        //Task33S(Map: Key-Value, number of the same products)
+        Task33S.task33();
     }
 }
 
