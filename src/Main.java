@@ -1,26 +1,11 @@
-import Classes.Calculator;
-import Classes.Car;
-import Classes.Engine;
-import Classes.StaticExample;
-
-import java.awt.*;
-import java.util.Scanner;
+import Task17.Task17;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        String tekstA = "tekst";
-        String tekstB = "tekst";
+        Task17.task17();
 
-        if (tekstA == tekstB) {
-            System.out.println("tekstA hashcode: "+tekstA.hashCode());
-            System.out.println("tekstB hashcode: "+tekstB.hashCode());
-        }
-        if (tekstA.equals(tekstB)) {
-            System.out.println("tekstA hashcode: "+tekstA.hashCode());
-            System.out.println("tekstB hashcode: "+tekstB.hashCode());
-        }
     }
 }
 
