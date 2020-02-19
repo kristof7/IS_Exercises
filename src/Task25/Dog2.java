@@ -5,4 +5,9 @@ public class Dog2 implements Animal2{
     public void eat() {
         System.out.println("Eat dog food");
     }
+
+    @Override
+    public void defaultImplementation() {
+        System.out.println("Dog implementation");
+    }
 }
