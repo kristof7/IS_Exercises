@@ -1,5 +1,6 @@
 import Task17.Task17;
 import Task18.Task18;
+import Task19.Task19;
 
 public class Main {
 
@@ -7,9 +8,11 @@ public class Main {
 
         //Task 17(dots counter
 //        Task17.task17();
+        //Task 18(Colors in enum Class)
+//        Task18.task18();
 
-        Task18.task18();
-
+        //Task 19(Table fill numbers from x)
+        Task19.task19();
     }
 }
 
