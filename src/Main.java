@@ -10,6 +10,7 @@ import Task25.Task25;
 import Task26.Task26;
 import Task27.Task27;
 import Task28S.Task28S;
+import Task29S.Task29S;
 
 public class Main {
 
@@ -35,9 +36,11 @@ public class Main {
 //        Task26.task26();
         //Task27(Abstract method)
 //        Task27.task27();
-
         //Task28S(Set)
-        Task28S.task28();
+//        Task28S.task28();
+
+        //Task29S(Set2)
+        Task29S.task29S();
 
     }
 }

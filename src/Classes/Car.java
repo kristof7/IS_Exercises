@@ -3,6 +3,8 @@ package Classes;
 import Task18.Color;
 import Task24.Vehicle;
 
+import java.util.Objects;
+
 public class Car extends Vehicle {
     private String name;
     private int maxSpeed;
@@ -48,5 +50,21 @@ public class Car extends Vehicle {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+    //-----------Equals & HashCode-----------
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Car car = (Car) o;
+        return maxSpeed == car.maxSpeed &&
+                name.equals(car.name) &&
+                engine.equals(car.engine) &&
+                color == car.color;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, maxSpeed, engine, color);
     }
 }
