@@ -1,5 +1,6 @@
 package Task21;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Task21 {
@@ -14,6 +15,7 @@ public class Task21 {
 
     private static void exception() {
         Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.US);
         try {
             System.out.println("Write number:");
             double number = scanner.nextDouble();
