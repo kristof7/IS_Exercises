@@ -1,20 +1,18 @@
 package Classes;
 
+import Task18.Color;
+
 public class Car {
     private String name;
     private int maxSpeed;
     private Engine engine;
+    private Color color;
 
-    public Car() {
+    public Car(Color color) {
+        this.color = color;
     }
 
-    public Car(String name) {
-        this.name = name;
-    }
-    public void printName() {
-        System.out.println(name);
-    }
-    //-----------Gettery i settery-----------
+    //-----------Getters & setters-----------
     public String getName() {
         return name;
     }
@@ -37,5 +35,13 @@ public class Car {
 
     public void setEngine(Engine engine) {
         this.engine = engine;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 }
