@@ -8,6 +8,7 @@ import Task23.Task23;
 import Task24.Task24;
 import Task25.Task25;
 import Task26.Task26;
+import Task27.Task27;
 
 public class Main {
 
@@ -29,9 +30,12 @@ public class Main {
 //        Task24.task24();
         //Task25(Interface)
 //        Task25.task25();
-
         //Task26(Interface-default method)
-        Task26.task26();
+//        Task26.task26();
+
+        //Task27(Abstract method)
+        Task27.task27();
+
     }
 }
 
